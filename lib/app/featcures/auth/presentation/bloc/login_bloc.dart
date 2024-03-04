@@ -12,6 +12,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
   AuthBloc({required this.loginUseCase}) : super(const AuthState()) {
     on<LoginEvent>(_loginEvent);
   }
+  // git@github.com:NourAhmadJob/E-commerce.git    
 
   final LoginUseCase loginUseCase;
 

@@ -1,9 +1,7 @@
-import 'package:e_commerce/app/featcures/auth/presentation/bloc/login_bloc.dart';
 import 'package:e_commerce/app/featcures/splash_page/presentation/pages/splash_page.dart';
 import 'package:e_commerce/core/services_locator/di.dart';
 import 'package:e_commerce/core/utils/routes/route_manager.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
